@@ -409,5 +409,4 @@ class StorageObject(
     # The following method is only required if the class inherits from
     # StorageObjectTouch
     # @retry_decorator
-    def touch(self):
-        ...
+    def touch(self): ...
